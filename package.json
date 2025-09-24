@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "next": "14.2.5",
@@ -14,6 +15,12 @@
     "@supabase/supabase-js": "^2.43.1",
     "stripe": "^14.0.0",
     "resend": "^3.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@types/node": "^20.11.25"
   },
   "type": "module"
 }
