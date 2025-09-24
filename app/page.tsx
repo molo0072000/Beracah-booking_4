@@ -1,0 +1,1 @@
+export default function Home(){return (<main className='container'><section className='card' style={{marginTop:16}}><h1 style={{marginTop:0}}>Welcome to Beracah Mobility</h1><p>Reliable airport shuttles, courier services, and vehicle transfers.</p><p><a className='btn primary' href='/booking'>Book Now</a></p></section></main>);}

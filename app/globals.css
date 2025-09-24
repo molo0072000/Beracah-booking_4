@@ -1,0 +1,14 @@
+*{box-sizing:border-box}html,body{margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Ubuntu,Arial,sans-serif;color:#111827}
+:root{--bg:#f6f7fb;--card:#fff;--ink:#111827;--muted:#6b7280;--line:#e5e7eb;--accent:#2563eb;--accent-ink:#fff;--bad:#dc2626}
+body{background:var(--bg)}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.container{max-width:1100px;margin:0 auto;padding:20px}.card{background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:0 1px 0 rgba(0,0,0,.03);padding:16px}
+.nav{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);z-index:20}.nav .wrap{display:flex;align-items:center;gap:16px;justify-content:space-between;padding:10px 20px}
+.brand{display:flex;align-items:center;gap:10px}.brand img{width:42px;height:42px;border-radius:10px;border:1px solid #e5e7eb;object-fit:contain;background:#fff}
+.brand .t1{font-weight:800;letter-spacing:.2px}.brand .t2{font-size:12px;color:#6b7280}.btn{border:1px solid #e5e7eb;border-radius:10px;padding:10px 14px;background:#fff;cursor:pointer;font-weight:700}
+.btn.primary{background:#2563eb;border-color:#2563eb;color:#fff}.btn.ghost{background:#f8fafc}
+.grid{display:grid;gap:16px}.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}.row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+label{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:#6b7280;margin:10px 0 6px}
+input,select,textarea{width:100%;padding:10px 12px;border:1px solid #e5e7eb;border-radius:10px;background:#fff}
+.price{font-size:20px;font-weight:900}.muted{color:#6b7280;font-size:13px}.footer{text-align:center;color:#6b7280;font-size:12px;padding:18px 0;border-top:1px solid #e5e7eb}
+@media (max-width:720px){.row,.row3{grid-template-columns:1fr}.brand .t2{display:none}}
+@media print{@page{size:A4;margin:14mm}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}.nav,.hidePrint{display:none!important}.onlyPrint{display:block}.card{border:none;box-shadow:none}}

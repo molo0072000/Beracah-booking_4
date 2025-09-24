@@ -1,0 +1,19 @@
+{
+  "name": "beracah-mobility-app-root",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@supabase/supabase-js": "^2.43.1",
+    "stripe": "^14.0.0",
+    "resend": "^3.2.0"
+  },
+  "type": "module"
+}
